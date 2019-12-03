@@ -1,0 +1,116 @@
+
+ /*-------- CSS Reset -------*/
+
+ *{
+ padding:0;
+ margin:0;
+ font-size:100%;
+ line-height:1em;
+ }
+
+ /*------- Main Styling ------*/
+ body{
+   width:80%;
+   max-width: 670px;
+   margin: auto;
+   background:#F7F3E3;
+   color: #04151F;
+   font-family: 'Alata', serif;}
+
+ol{
+     text-align: center;
+     color: #546A7B;
+     list-style-type: none;
+     line-height: 1em;
+
+   }
+ /*---------- Typography ------------*/
+
+ h1,h2,h3,h4 {
+     font-weight: normal;
+     color:#BCAF9C;
+     text-align: center;
+   }
+
+   p,blockquote{
+     margin-bottom: 1.5em;
+     line-height: 1.6;
+   }
+
+ p {font-family: 'Open Sans', sans-serif;}
+
+ h1 {font-size: 2.827em;
+     margin-top: 2em;
+     margin-bottom: 0.1em;}
+
+ h2 {font-size: 1.999em;
+     margin: 3em 0 1em 0;}
+
+ h3 {font-size: 1.414em;
+     margin-bottom: 1.5em;}
+
+ blockquote {
+   font-size: 1.414em;
+   hanging-punctuation: first;
+   text-indent: -0.44em;
+   color: #04151F; }
+
+ blockquote cite {
+   font-size:0.75em;
+   color: #04151F;
+ }
+
+ h3 {font-style: italic;}
+
+ header p {font-size:1.35em}
+ /*---------style links------*/
+ a{
+   color: #8F0040;
+   text-decoration:none;
+ }
+ a:hover{
+   color:#04151F;
+   border-bottom: none;
+ }
+ /*---------navigation--------*/
+ nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   margin: 0;
+   width: 100%;
+   background-color: #04151F;
+   padding: 1em 0;
+   font-size: 0.75em;
+ }
+
+ nav ul {
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+ }
+ nav ul li{
+   display: inline;
+   margin: 20px;
+ }
+
+ nav a:link{
+   color: #fafafa;
+ }
+
+ nav a:visited{
+   color: #fafafa;
+ }
+
+
+ nav a:hover{
+   border-bottom: none;
+   color: chocolate;
+ }
+
+ /*---------footer--------*/
+ footer {
+     text-align: center;
+     font-size: 0.707em;
+     margin-top: 4em;
+     padding: 2em 0 4em 0;}
