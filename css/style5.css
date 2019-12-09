@@ -67,13 +67,54 @@ ol{
  header p {font-size:1.35em}
  /*---------style links------*/
  a{
-   color: #8F0040;
+   color: #04151F;
    text-decoration:none;
  }
  a:hover{
    color:#04151F;
    border-bottom: none;
  }
+ /*-----------Image------------*/
+ img {
+   display: block;
+   margin: 3em auto;
+   padding: 0;
+   max-width: 100%;}
+   /*----------Table--------*/
+
+   table {
+     margin: auto;
+     display: table;
+     border-collapse: collapse;
+     border-spacing: 2px;
+     margin-bottom: 2em;
+     width: 100%;
+     color: #686963;
+     background-color: #F7F3E3;
+
+   }
+
+   caption {
+     margin-bottom: 1.5em;
+     text-transform: uppercase;
+     font-weight: bold;
+   }
+
+
+   th{
+     color: #686963;
+     text-transform: uppercase;
+     font-weight: normal;
+     text-align: left;
+     background: #BCAF9C;
+     border: 2px solid #686963;
+   }
+
+   td, th {
+     padding: 0.5em;
+        border: 1px solid #686963;
+   }
+
  /*---------navigation--------*/
  nav {
    position: fixed;
